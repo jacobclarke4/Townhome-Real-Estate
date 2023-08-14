@@ -1,0 +1,113 @@
+/*MAP+GRID*/
+
+.md-search.template1.map.hide-below{
+  padding: 0 !important;
+}
+
+.md-search-more-center.template1 {
+  background: rgba(70, 70, 70, 1) !important;
+  margin: 0 !important;
+}
+
+input.search-input {
+  background: rgba(43,43,43,1) !important;
+  color: white !important; 
+}
+
+.md-search-more-center.template1 .search-by-section .keyword-container .search-category {
+  border: none !important;
+}
+
+.search-category{
+  background: rgba(43,43,43,1) !important;
+}
+
+.search-detail-item {
+  background: rgba(43,43,43,1) !important;
+  border: none !important;
+  color: white !important; 
+}
+
+.md-search-more-center.template1 .search-by-section .save-search  {
+  background: rgba(43,43,43,1) !important;
+  border: none !important;
+  color: white !important;
+  font-family: font-Lato-400 !important;
+  font-size: 14px !important;
+}
+
+.search-detail-item.more-btn *{
+  cursor: pointer !important;
+}
+
+.md-search-more-center.template1 .search-by-section .keyword-container .search-category .keyword-submit .icon-search {
+  color: white !important;
+}
+
+/*GRID COMPUTER RIGHT SIDE*/
+
+.md-search-result.template1 .search-result-container.right {
+  background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+}
+
+
+.md-search-result.template1 .search-result-container .search-result-header .search-text  {
+  color: white !important;
+  font-family: font-Lato-400 !important;
+  font-weight: normal;
+}
+
+.click-show-list.select.single, label.text, .switch-item.map.active, .switch-item.list, .switch-item.grid{
+  background: rgba(43,43,43,1) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.crumbs.template1 .content .right {
+  color: rgba(184,184,184,1) !important;
+}
+
+
+/*HOUSES GRID */
+
+li.house-grid-item.template1, .house-list-item.template1 {
+  border: none !important;
+  background: rgba(70, 70, 70, 1) !important;
+}
+.house-basic.clearfix {
+  border: none !important;
+  background: rgba(70, 70, 70, 1) !important;
+  color: white !important;
+}
+
+i.iconfont.icon-heart{
+  color: white !important;
+}
+
+h3.house-address {
+  color: white !important;
+  font-family: font-Lato-400 !important;
+  font-weight: normal;
+}
+
+p.house-provided.ws-pre-wrap {
+  color: rgba(184,184,184,1) !important;
+}
+
+
+/*MAP TOOLS*/
+.map-tool, .map-tool .btn, .map-tool .btn *, .nearby.map-tool *, .zoom.standard.map-tool *{
+  color: white !important;
+  background: rgba(43,43,43,1) !important;
+}
+
+.zoom-in:after, .zoom-in:before, .zoom-out:after {
+  background-color: white !important;
+}
+
+/*EXPLORE LISTINGS AND EXPLORE NEIGHBORHOODS*/
+
+.explore-listings.mg-container.template2-listing-map, .explore-nbr.mg-container.template2-listing-map, .search-seo-container {
+  display:none !important;
+}
+
