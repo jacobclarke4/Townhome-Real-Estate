@@ -104,3 +104,10 @@ p.house-provided.ws-pre-wrap {
 .zoom-in:after, .zoom-in:before, .zoom-out:after {
   background-color: white !important;
 }
+
+/*EXPLORE LISTINGS AND EXPLORE NEIGHBORHOODS*/
+
+.explore-listings.mg-container.template2-listing-map, .explore-nbr.mg-container.template2-listing-map, .search-seo-container {
+display:none !important;
+}
+
