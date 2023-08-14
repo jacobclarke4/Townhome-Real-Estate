@@ -14,6 +14,13 @@ input.search-input {
   color: white !important; 
 }
 
+/*Removes PROPERTY TYPE div from search parameters*/
+.md-search-more-center.template1 .search-more .search-detail-wrap :nth-child(4) {
+  display: none !important;
+}
+
+
+
 .md-search-more-center.template1 .search-by-section .keyword-container .search-category {
   border: none !important;
 }
@@ -26,6 +33,10 @@ input.search-input {
   background: rgba(43,43,43,1) !important;
   border: none !important;
   color: white !important; 
+}
+
+.search-detail-item:hover {
+  background: rgba(184,184,184,1) !important;
 }
 
 .md-search-more-center.template1 .search-by-section .save-search  {
@@ -61,6 +72,13 @@ input.search-input {
   background: rgba(43,43,43,1) !important;
   border: none !important;
   color: white !important;
+}
+
+a.crumb_item {
+  color: rgba(184,184,184,1) !important;
+}
+.crumbs.template1 .content {
+  border: none !important;
 }
 
 .crumbs.template1 .content .right {
