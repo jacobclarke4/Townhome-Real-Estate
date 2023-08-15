@@ -67,7 +67,7 @@ input.search-input {
   font-weight: normal;
 }
 
-.click-show-list.select.single, label.text, .switch-item.map.active, .switch-item.list, .switch-item.grid{
+.click-show-list.select.single, .switch-item.map.active, .switch-item.list, .switch-item.grid{
   background: rgba(43,43,43,1) !important;
   border: none !important;
   color: white !important;
