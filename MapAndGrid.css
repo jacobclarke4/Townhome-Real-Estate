@@ -60,8 +60,8 @@ input.search-input {
   background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
 }
 
-.md-search-result.template1 .search-result-container.right .search-result-header {
-  background: rgba(70,70,70,1) !important;
+.search-result-header {
+    background: rgba(70, 70, 70, 1) !important;
 }
 
 .md-search-result.template1 .search-result-container .search-result-header .search-text  {
