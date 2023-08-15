@@ -4,6 +4,11 @@
   padding: 0 !important;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: .5 !important; /* Firefox */
+}
+
 .md-search-more-center.template1 {
   background: rgba(70, 70, 70, 1) !important;
   margin: 0 !important;
