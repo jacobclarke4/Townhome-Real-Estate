@@ -60,11 +60,15 @@ input.search-input {
   background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
 }
 
-
 .md-search-result.template1 .search-result-container .search-result-header .search-text  {
   color: white !important;
   font-family: font-Lato-400 !important;
   font-weight: normal;
+}
+
+.md-search-result.template1 .search-result-container .search-result-header .search-choose .search-sort .select .box-div .title .text
+{
+  color: white !important;
 }
 
 .click-show-list.select.single, .switch-item.map.active, .switch-item.list, .switch-item.grid{
