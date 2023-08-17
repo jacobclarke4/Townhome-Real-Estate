@@ -137,3 +137,17 @@ p.house-provided.ws-pre-wrap {
 display:none !important;
 }
 
+
+
+/*MAP DISABLED: GRID*/
+
+.md-search-result.template1 {
+  background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+}
+
+.switch-item.map {
+    color: white !important;
+    border: none !important;
+    background: (43,43,43,1);
+}
+
