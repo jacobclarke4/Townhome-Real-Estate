@@ -137,7 +137,10 @@ p.house-provided.ws-pre-wrap {
 display:none !important;
 }
 
-
+/*MAP DISABLED: SEARCH BAR*/
+.md-search.template1.list.hide-below {
+    padding: 0px !important;
+}
 
 /*MAP DISABLED: GRID*/
 
