@@ -93,6 +93,23 @@ a.crumb_item {
   color: rgba(184,184,184,1) !important;
 }
 
+/*PAGE NUMBERS*/
+.comp-pagination.fashion .page li.page-num {
+  color: white !important;
+}
+
+li.page-num {
+  color: rgba(184,184,184,1) !important;
+}
+
+li.iconfont.icon-arrow-up.page-left {
+  color: white !important;
+}
+
+li.iconfont.icon-arrow-up.page-right {
+  color: white !important;
+}
+
 
 /*HOUSES GRID */
 
