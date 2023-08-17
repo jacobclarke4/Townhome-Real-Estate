@@ -94,7 +94,7 @@ a.crumb_item {
 }
 
 /*PAGE NUMBERS*/
-.comp-pagination.fashion .page li.page-num {
+li.active.page-num {
   color: white !important;
 }
 
