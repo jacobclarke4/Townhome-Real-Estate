@@ -146,8 +146,14 @@ display:none !important;
 }
 
 .switch-item.map {
-    color: white !important;
-    border: none !important;
-    background: rgba(43,43,43,1);
+  color: white !important;
+  border: none !important;
+  background: rgba(43,43,43,1);
 }
 
+
+/*MAP DISABLED: LIST*/
+.house-list-item.template1 {
+  margin: 0 0 20px 0;
+  padding: 0px;
+}
