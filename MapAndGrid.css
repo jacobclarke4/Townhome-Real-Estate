@@ -154,6 +154,6 @@ display:none !important;
 
 /*MAP DISABLED: LIST*/
 .house-list-item.template1 {
-  margin: 0 0 20px 0;
-  padding: 0px;
+  margin: 0 0 20px 0 !important;
+  padding: 0px !important;
 }
