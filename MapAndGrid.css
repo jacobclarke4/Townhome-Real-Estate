@@ -148,6 +148,6 @@ display:none !important;
 .switch-item.map {
     color: white !important;
     border: none !important;
-    background: (43,43,43,1);
+    background: rgba(43,43,43,1);
 }
 
