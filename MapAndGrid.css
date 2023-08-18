@@ -36,6 +36,7 @@ input.search-input {
   background: rgba(43,43,43,1) !important;
   border: none !important;
   color: white !important; 
+  transition: background .5s ease;
 }
 
 .search-detail-item:hover, .search-detail-item:hover .more-btn {
