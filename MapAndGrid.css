@@ -49,6 +49,11 @@ input.search-input {
   color: white !important;
   font-family: font-Lato-400 !important;
   font-size: 14px !important;
+  transition: background .5s ease;
+}
+
+.save-search:hover {
+  background: rgba(184,184,184,1);
 }
 
 .search-detail-item.more-btn *{
@@ -161,7 +166,6 @@ display:none !important;
 .md-search-result.template1 .search-result-container .search-result-header .search-choose .search-switch .switch-item:hover, .md-search-result.template1 .search-result-container .search-result-header .search-choose .search-switch .switch-item.active, .md-search-result.template1 .search-result-container .search-result-header .search-choose .search-switch .switch-item.side-active {
   background-color: rgba(43,43,43,1) !important;
 } 
-
 
 /*MAP DISABLED: SEARCH BAR*/
 
