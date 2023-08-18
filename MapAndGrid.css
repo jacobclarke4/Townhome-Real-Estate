@@ -158,9 +158,9 @@ display:none !important;
 
 /*MAP DISABLED: MAP BUTTON*/
 
-.search-switch .switch-item:hover {
-  background-color: rgba(43,43,43,1);
-}
+.md-search-result.template1 .search-result-container .search-result-header .search-choose .search-switch .switch-item:hover, .md-search-result.template1 .search-result-container .search-result-header .search-choose .search-switch .switch-item.active, .md-search-result.template1 .search-result-container .search-result-header .search-choose .search-switch .switch-item.side-active {
+  background-color: rgba(43,43,43,1) !important;
+} 
 
 
 /*MAP DISABLED: SEARCH BAR*/
