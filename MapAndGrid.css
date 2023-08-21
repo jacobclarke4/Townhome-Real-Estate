@@ -1,4 +1,6 @@
 /*MOBILE FILTERS *MORE* BUTTON*/
+
+@media (max-width: 800px) {
   .md-listing-search.template1 .search-content>.header {
     background: rgba(70,70,70,1) !important;
     color: white !important;
@@ -19,65 +21,63 @@
     border: none !important;
   }
 
-.select-virtual.template1 .select-input
-{
-  color: white !important;
-  background: rgba(43,43,43,1) !important;
-  border: none !important;
+  .select-virtual.template1 .select-input
+  {
+    color: white !important;
+    background: rgba(43,43,43,1) !important;
+    border: none !important;
 
-}
-@media (max-width: 800px) {
+  }
+
   .md-search-more-center.template1 .keyword {
     border:none !important;
   }
-}
-span.iconfont.icon-arrow-down {
-  color: white !important;
-}
-/*
-@media (max-width: 800px){
+
+  span.iconfont.icon-arrow-down {
+    color: white !important;
+  }
+
   .md-search-more-center.template1 .inputtext-area:nth-child(1) {
       display:none !important;
     }
-}
-*/
   .md-search-more-center.template1 .text {
     color: white !important;
   }
 
-label.select-text.type-input {
-  color: white !important;
-}
 
-.title_mid {
-  color: white !important;
-}
+  label.select-text.type-input {
+    color: white !important;
+  }
 
-.label.no_wrap {
-  color: white !important;
-}
+  .title_mid {
+    color: white !important;
+  }
 
-.input-box.template1 .title_container .advance {
-  color: white !important;
-}
+  .label.no_wrap {
+    color: white !important;
+  }
 
-.input_container.template1 {
-  background: rgba(43,43,43,1) !important;
-  border: none !important;
-}
+  .input-box.template1 .title_container .advance {
+    color: white !important;
+  }
 
-.input_wrap .input.left {
-  color: white !important;
-}
+  .input_container.template1 {
+    background: rgba(43,43,43,1) !important;
+    border: none !important;
+  }
 
-.input_wrap .input.right {
-  color: white !important;
-}
+  .input_wrap .input.left {
+    color: white !important;
+  }
 
-span.label.cursor {
-  color: white !important;
-}
+  .input_wrap .input.right {
+    color: white !important;
+  }
 
+  span.label.cursor {
+    color: white !important;
+  }
+}
 
 /*MAP+GRID*/
 
