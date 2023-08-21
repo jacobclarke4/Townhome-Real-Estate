@@ -6,7 +6,7 @@
   background: rgba(43,43,43,1) !important;
   border: none !important;
 
-
+}
 
   @media (max-width: 800px)
   .md-search-more-center.template1 .section-box .section::nth-child(1) {
