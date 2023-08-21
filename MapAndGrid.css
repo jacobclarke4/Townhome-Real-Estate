@@ -1,6 +1,4 @@
 /*MOBILE FILTERS *MORE* BUTTON*/
-
-@media (max-width: 800px) {
   .md-listing-search.template1 .search-content>.header {
     background: rgba(70,70,70,1) !important;
     color: white !important;
@@ -20,7 +18,6 @@
     color: white !important;
     border: none !important;
   }
-}
 
 .select-virtual.template1 .select-input
 {
@@ -37,17 +34,16 @@
 span.iconfont.icon-arrow-down {
   color: white !important;
 }
-
+/*
 @media (max-width: 800px){
   .md-search-more-center.template1 .inputtext-area:nth-child(1) {
       display:none !important;
     }
 }
-@media (max-width: 800px){
+*/
   .md-search-more-center.template1 .text {
     color: white !important;
   }
-}
 
 label.select-text.type-input {
   color: white !important;
