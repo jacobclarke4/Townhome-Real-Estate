@@ -11,13 +11,18 @@
   .split::before {
     color: black !important;
   }
-  .dropdown .container .item[data-v-2b0abf1d] {
-    padding: 0 10px 0px -3px;
-    height: 32px;
-    line-height: 13px;
+  .dropdown .container .item {
+    padding: 0 10px 0px 3px !important;
+    height: 32px !important;
+    line-height: 13px !important;
     cursor: pointer;
     text-align: left !important;
+    max-width: none !important;
   }
+  .outside-range .dropdown_container .container.template1 * {
+    max-width: none !important;
+  }
+  
 }
 
 
