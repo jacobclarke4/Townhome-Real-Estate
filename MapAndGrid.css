@@ -8,10 +8,11 @@
 
 }
 
-  @media (max-width: 800px)
-  .md-search-more-center.template1 .section-box .section::nth-child(1) {
-    display:none !important;
-  }
+  @media (max-width: 800px){
+    .md-search-more-center.template1 .section-box .section::nth-child(1) {
+      display:none !important;
+    }
+}
 
 
 
