@@ -1,3 +1,27 @@
+/*SCREEN SEARCH FILTERS*/
+
+@media (min-width: 801px)
+{
+  .container.template1 > *{
+    background-color:white !important;
+    background: white !important;
+    color: black !important;
+    border: solid 1px #d5d5d5;
+  }
+  .split::before {
+    color: black !important;
+  }
+  .dropdown .container .item[data-v-2b0abf1d] {
+    padding: 0 10px 0px -3px;
+    height: 32px;
+    line-height: 13px;
+    cursor: pointer;
+    text-align: left !important;
+  }
+}
+
+
+
 /*MOBILE FILTERS *MORE* BUTTON*/
 
 @media (max-width: 800px) {
