@@ -1,3 +1,20 @@
+/*MOBILE FILTERS *MORE* BUTTON*/
+
+.select-virtual.template1 .select-input
+{
+  color: white !important;
+  background: rgba(43,43,43,1) !important;
+  border: none !important;
+
+
+
+  @media (max-width: 800px)
+  .md-search-more-center.template1 .section-box .section::nth-child(1) {
+    display:none !important;
+  }
+
+
+
 /*MAP+GRID*/
 
 .md-search.template1.map.hide-below{
