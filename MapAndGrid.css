@@ -8,8 +8,12 @@
     color: black !important;
     border: solid 1px #d5d5d5;
   }
+  .container.template1 > div {
+    border: none !important;
+  }
+  
   .split::before {
-    color: black !important;
+    background: black !important;
   }
   .dropdown .container .item {
     padding: 0 10px 0px 3px !important;
