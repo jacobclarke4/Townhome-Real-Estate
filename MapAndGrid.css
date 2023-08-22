@@ -82,6 +82,12 @@
     border: none !important;
     color: white !important;
   }
+  .reference.active {
+    background: rgba(170, 170, 170, 1) !important;
+  }
+  .reference:hover {
+    background: rgba(170, 170, 170, 1) !important;
+  }
   li.nav_item.more_item {
     background: rgba(43, 43, 43, 1) !important;
     border: none !important;
