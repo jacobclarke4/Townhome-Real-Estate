@@ -29,12 +29,10 @@
   
 }
 
-
-
-
 /*MOBILE FILTERS *MORE* BUTTON*/
 
 @media (max-width: 800px) {
+  
   .md-listing-search.template1 .search-content>.header {
     background: rgba(70,70,70,1) !important;
     color: white !important;
@@ -54,7 +52,6 @@
     color: white !important;
     border: none !important;
   }
-
   .select-virtual.template1 .select-input
   {
     color: white !important;
@@ -62,11 +59,9 @@
     border: none !important;
 
   }
-
   .md-search-more-center.template1 .keyword {
     border:none !important;
   }
-
   span.iconfont.icon-arrow-down {
     color: white !important;
   }
