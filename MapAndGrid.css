@@ -55,6 +55,7 @@
   li.option_item.template1 {
     background: rgba(70, 70, 70, 1) !important;
     color: white !important;
+    border-top: solid 1px #dcdcdc;
   }
   .search-mobile {
       background: rgba(70, 70, 70, 1) !important;
