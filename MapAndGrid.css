@@ -118,10 +118,11 @@
   span.iconfont.icon-arrow-down {
     color: white !important;
   }
-
+  /*
   .md-search-more-center.template1 .inputtext-area:nth-child(1) {
       display:none !important;
     }
+    */
   .md-search-more-center.template1 .text {
     color: white !important;
   }
