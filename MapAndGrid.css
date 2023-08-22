@@ -28,10 +28,31 @@
   }
   
 }
-
 /*MOBILE SEARCH AND FILTERS *MORE* BUTTON*/
 
 @media (max-width: 800px) {
+  .map-box {
+    background: rgba(43, 43, 43, 1) !important;
+  }
+  .btn.cancel, .btn.submit {
+    background: rgba(43, 43, 43, 1) !important;
+    border: none !important;
+    color: white !important;
+  }
+  .operation_wrap {
+    background: rgba(70, 70, 70, 1) !important;
+  }
+  
+  ul.input_wrap {
+    background: rgba(70, 70, 70, 1) !important;
+  }
+  span.prepend.money_prepend {
+    color: white !important;
+  }
+  li.option_item.template1 {
+    background: rgba(70, 70, 70, 1) !important;
+    color: white !important;
+  }
   .search-mobile {
       background: rgba(70, 70, 70, 1) !important;
     }
