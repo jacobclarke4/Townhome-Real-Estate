@@ -31,6 +31,9 @@
 /*MOBILE SEARCH AND FILTERS *MORE* BUTTON*/
 
 @media (max-width: 800px) {
+  .md-search-more-center.template1 .search-category.keyword-only .keyword .list-panel li {
+    color: white !important;
+  }
   .nav_wrap .more_item:hover {
     background: rgba(184, 184, 184, 1) !important;
   }
