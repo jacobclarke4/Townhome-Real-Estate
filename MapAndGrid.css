@@ -29,10 +29,39 @@
   
 }
 
-/*MOBILE FILTERS *MORE* BUTTON*/
+/*MOBILE SEARCH AND FILTERS *MORE* BUTTON*/
 
 @media (max-width: 800px) {
-  
+  .search-mobile {
+      background: rgba(70, 70, 70, 1) !important;
+    }
+  .md-listing-search.template1 .search-mobile .input-container {
+    background: rgba(43, 43, 43, 1) !important;
+    border: none !important;
+  }
+  .md-search-tag.template1.simple .search-filter {
+        background: rgba(43, 43, 43, 1) !important;
+    border: none !important;
+  }
+  .md-listing-search.template1 .search-mobile .input-container .icon-search-bold {
+    color: white !important;
+  }
+  .md-listing-search.template1 .search-mobile .button-layout.mode {
+    background: rgba(43, 43, 43, 1);
+  }
+  ul.nav_wrap {
+    background: rgba(70, 70, 70, 1) !important;
+  }
+  .reference {
+    background: rgba(43, 43, 43, 1) !important;
+    border: none !important;
+    color: white !important;
+  }
+  li.nav_item.more_item {
+    background: rgba(43, 43, 43, 1) !important;
+    border: none !important;
+    color: white !important;
+}
   .md-listing-search.template1 .search-content>.header {
     background: rgba(70,70,70,1) !important;
     color: white !important;
