@@ -31,6 +31,12 @@
 /*MOBILE SEARCH AND FILTERS *MORE* BUTTON*/
 
 @media (max-width: 800px) {
+  .explore-listings.mg-container.template2-listing-list  {
+    display: none !important;
+  }
+  .explore-nbr.mg-container.template2-listing-list {
+    display: none !important;
+  }
   .md-search-tag.template1:not(.simple)>.header {
     color: white !important;
   }
