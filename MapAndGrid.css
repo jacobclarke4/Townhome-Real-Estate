@@ -31,6 +31,29 @@
 /*MOBILE SEARCH AND FILTERS *MORE* BUTTON*/
 
 @media (max-width: 800px) {
+  .md-search-more-center.template1 .search-category.keyword-only .keyword .list-panel li:hover {
+    background: rgba(184, 184, 184, 1) !important;
+  }
+  .md-search-more-center.template1 .search-category.keyword-only .keyword .list-panel .type-title {
+    color: white !important;
+  }
+  .md-search-more-center.template1 .search-category.keyword-only .keyword .list-panel .type-title:hover {
+    background: transparent !important;
+  }
+  .search-category.show-all.keyword-only {
+    background: rgba(70, 70, 70, 1) !important;
+  }
+  .md-search-more-center.template1 .search-category.keyword-only .keyword .list-panel {
+     background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+  }
+  .md-search-more-center.template1 .search-category.keyword-only .keyword {
+    background: rgba(43, 43, 43, 1) !important;
+  }
+  .md-search-more-center.template1 .search-category.keyword-only .keyword .btn-close {
+    background: rgba(43, 43, 43, 1) !important;
+    border: none !important;
+    color: white !important;
+  }
   .explore-listings.mg-container.template2-listing-list  {
     display: none !important;
   }
