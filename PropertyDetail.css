@@ -1,1 +1,180 @@
+/*PROPERTY DETAILS SECTION*/
+.breadcrumb-container.fashion, .md-detail-info.fashion .detail-info-header {
+    background: rgba(70,70,70,1) !important;
+
+}
+
+p,  h1, h2, h3, div, a, .fashion.caculator-container .icon-caculator {
+    color: white !important;
+}
+.md-detail-info.fashion .detail-info-header span.house, span.payment-text, span.addr-detail {
+    color: rgba(184, 184, 184, 1) !important;
+}
+
+.md-detail-info.fashion div.detail-info {
+    background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+
+}
+
+.md-detail-info.fashion .detail-info .detail-info-group-container {
+    background: rgba(70,70,70,1) !important;
+    padding: 20px !important;
+}
+
+.md-detail-info .detail-info-group .key-info .content.two-columns > *{
+    background: rgba(70,70,70,1) !important;
+}
+p.detail-content {
+    color: rgba(184, 184, 184, 1) !important;
+}
+span.addr {
+    font-family: font-Lato-300 !important;
+
+}
+
+h4.detail-title {
+    color: white !important;
+    font-family: font-Lato-300 !important;
+}
+span.info-title {
+    color: rgba(184, 184, 184, 1) !important;
+}
+span.info-data {
+    color: white !important;
+}
+
+.md-detail-info.fashion .detail-info .read-more {
+    background: rgba(70, 70, 70, 1) !important;
+}
+
+.md-detail-info.fashion .detail-info .read-more::before {
+    background-image: none !important;
+    border-bottom: 2px rgba(43, 43, 43, 1) solid;
+}
+
+div.appointment {
+    background: rgba(43, 43, 43, 1) !important;
+}
+
+.fashion-detail-schedule .appointment .schedule-appointment-tab .tab-item.active {
+    font-family: font-Lato-300 !important;
+    background: rgba(70, 70, 70, 1) !important;
+    color: white !important;
+}
+
+.fashion-detail-schedule .appointment .schedule-appointment-tab .tab-item {
+    font-family: font-Lato-300 !important;
+    border-color: white !important; 
+    color: rgba(184, 184, 184, 1) !important;
+}
+.swiper-wrapper > div {
+    background: rgba(70, 70, 70, 1) !important;
+}
+.iconfont.icon-boldarrow.next {
+    border-color: white !important;
+    color: white !important;
+    background: rgba(43, 43, 43, 1) !important;
+}
+.schedule-button {
+    background: rgba(70, 70, 70, 1) !important;
+}
+.agent-name {
+    font-family: font-lato-300 !important;
+}
+span.iconfont.icon-help.tour-type-tip {
+    color: rgba(184, 184, 184, 1) !important
+}
+.md-detail-info.fashion .detail-info-header .top-content .button.pc > span {
+    background: rgba(43, 43, 43, 1) !important;
+    color: white;
+    border-color: white !important;
+}
+.info-content {
+    background: rgba(70, 70, 70, 1) !important;
+}
+
+div.text-container * {
+    color: rgba(184,184, 184, 1) !important;
+}
+.md-map.broker {
+    background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+}
+.map-tab.mg-scrollbar.show-collapse.show-business, .map-tab.mg-scrollbar.show-collapse.show-business * {
+    background: rgba(70, 70, 70, 1) !important;
+    color: white !important;
+}
+.md-map.broker .map-tab .tab-header .item.active:before {
+    background: white !important;
+}
+.md-map.broker .near-by-disclaimer, .md-map.broker .near-by-disclaimer * {
+    color: rgba(184, 184, 184, 1) !important;
+}
+.md-property-history.broker {
+    padding: 20px !important;
+    background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+}
+.list-header * {
+    color: white !important;
+    border-bottom: 2px white solid;
+    padding-bottom: 10px !important;
+}
+.md-property-history.broker > div {
+    padding: 20px !important;
+    background: rgba(70, 70, 70, 1) !important;
+    justify-content: center !important;
+}
+.md-property-history.broker .list-property-history .list-sub-header {
+    background: rgba(70, 70, 70, 1) !important;
+}
+.md-property-history.broker .list-property-history .list-box li .property-source {
+    color: white !important;
+}
+.list-box > li:hover {
+    background: rgba(184, 184, 184, 1) !important;
+}
+.md-property-history.broker .list-property-history .list-box li:last-child {
+    border-color: white !important;
+}
+.md-market-trends.broker > div {
+    background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+}
+span.zipcode {
+    color: rgba(184, 184, 184, 1) !important;
+}
+.md-market-trends.broker .title_container {
+    background: rgba(70, 70, 70, 1) !important;
+    
+}
+.md-market-trends.broker .title_container .timeline {
+    padding-left: 20px !important;
+}
+.md-demographic.broker {
+    background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+    padding: 20px !important;
+}
+
+.md-demographic.broker .demographic-content {
+    background: transparent !important;
+}
+.md-demographic.broker .demographic-content li {
+    background: rgba(70, 70, 70, 1) !important;
+    border-color: white !important;
+}
+.md-demographic.broker .source, .md-demographic.broker .source a  {
+    color: rgba(184, 184, 184, 1) !important;
+}
+.md-house-listing.broker {
+    background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+}
+.house-grid-item.broker {
+    border: none !important;
+    background: rgba(70, 70, 70, 1) !important;
+}
+.house-grid-item.broker .collect.bot {
+    background: rgba(43, 43, 43, 1) !important;
+    border: 1px solid white !important;
+}
+.md-house-listing.broker .title .more * {
+    color: white !important;
+}
 
