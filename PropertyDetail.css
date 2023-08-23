@@ -3,7 +3,9 @@
     background: rgba(70,70,70,1) !important;
 
 }
-
+div.schedule-banner {
+    background-image: linear-gradient(rgba(43,43,43,.4), rgba(43,43,43,1)),url(//static.chimeroi.com/upload/1440.jpg);
+}
 p,  h1, h2, h3, div, a, .fashion.caculator-container .icon-caculator {
     color: white !important;
 }
@@ -177,4 +179,3 @@ span.zipcode {
 .md-house-listing.broker .title .more * {
     color: white !important;
 }
-
