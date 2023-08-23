@@ -1,21 +1,54 @@
 /*PROPERTY DETAILS SECTION*/
 .breadcrumb-container.fashion, .md-detail-info.fashion .detail-info-header {
     background: rgba(70,70,70,1) !important;
-
 }
-div.schedule-banner {
-    background-image: linear-gradient(rgba(43,43,43,.4), rgba(43,43,43,1)),url(//static.chimeroi.com/upload/1440.jpg);
-}
-p,  h1, h2, h3, div, a, .fashion.caculator-container .icon-caculator {
+.breadcrumb-container.fashion div > *{
     color: white !important;
 }
+.fixed-banner.fixed {
+    background: rgba(43, 43, 43, 1) !important;
+}
+.save-share-tour *{
+    color: white !important;
+}
+div.schedule-banner {
+    background-image: linear-gradient(rgba(43,43,43,.4), rgba(43,43,43,1)),url(//static.chimeroi.com/upload/1440.jpg) !important;
+}
+.fashion.caculator-container .icon-caculator, div.price-value, p.detail-title {
+    color: white !important;
+}
+a.btn, .fashion-detail-schedule .swiper-slide {
+    color: white !important;
+    border-color: white !important;
+}
+a.btn {
+    background: rgba(43, 43, 43, 1) !important;
+}
+h2.mg-title._title_{
+    color: white !important;
+}
+.md-demographic.broker .demographic-content p {
+    color: white !important;
+}
+.md-property-history .list-property-history *{
+    color: white !important;
+}
+.md-house-listing.broker .sub-title {
+    color: rgba(184, 184, 184, 1) !important;
+}
+.schedule-agent-info *{
+    color: white !important;
+}
+.house-price {
+    color: white !important;
+}
+
 .md-detail-info.fashion .detail-info-header span.house, span.payment-text, span.addr-detail {
     color: rgba(184, 184, 184, 1) !important;
 }
 
 .md-detail-info.fashion div.detail-info {
     background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
-
 }
 
 .md-detail-info.fashion .detail-info .detail-info-group-container {
@@ -32,6 +65,12 @@ p.detail-content {
 span.addr {
     font-family: font-Lato-300 !important;
 
+}
+.image-count {
+    background: rgba(43, 43, 43, 1) !important;
+}
+.read-more {
+    color: white !important;*
 }
 
 h4.detail-title {
