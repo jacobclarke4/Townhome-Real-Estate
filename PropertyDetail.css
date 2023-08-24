@@ -13,7 +13,7 @@
 
 }
 .house-grid.broker {
-    justify-content: center mp !important;
+    justify-content: center !important;
 }
 .submit-box .submit {
     transition: background .5s ease;
