@@ -12,7 +12,9 @@
     border: 0 !important;
 
 }
-
+.submit-box .submit {
+    transition: background .5s ease;
+}
 .md-form.template7 .form-container .info-agent * {
     color: white !important;
 } 
