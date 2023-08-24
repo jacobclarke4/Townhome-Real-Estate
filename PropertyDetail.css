@@ -11,6 +11,10 @@
     margin: 0 !important;
     border: 0 !important;
 }
+.md-map.broker .map-tab.show-collapse,  .md-map.broker .map-tab.show-collapse *  {
+    background: rgba(43, 43, 43, 1) !important;
+    color: white !important;
+}
 .md-form.template7 .form-container .info-agent {
     justify-content: none !important;
 }
