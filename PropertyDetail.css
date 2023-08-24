@@ -15,6 +15,10 @@
 .house-grid.broker {
     justify-content: center !important;
 }
+.md-property-history.broker .history-more {
+    color: white !important;
+    border-top: rgba(43,43,43,1) 2px solid !important;
+}
 .submit-box .submit {
     transition: background .5s ease;
 }
