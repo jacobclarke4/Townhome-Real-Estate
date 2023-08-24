@@ -14,6 +14,12 @@
 .md-form.template7 .form-container .info-agent {
     justify-content: none !important;
 }
+.save-share-container.fixed {
+    background: rgba(43, 43, 43, 1) !important;
+}
+.right-btn * {
+    color: white !important;
+}
 button.gotour:hover {
     background: rgba(184,184,184,1) !important;
 }
