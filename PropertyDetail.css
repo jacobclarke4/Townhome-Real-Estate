@@ -45,7 +45,7 @@ button.gotour {
     color: white !important;
 }
 .md-market-trends.broker .cta-btn button {
-    backgound: rgba(43, 43, 43, 1) !important;
+    background: rgba(43, 43, 43, 1) !important;
     color: white !important;
     transition: background .5s ease;
 }
@@ -133,7 +133,7 @@ span.addr {
     background: rgba(43, 43, 43, 1) !important;
 }
 .read-more {
-    color: white !important;*
+    color: white !important;
 }
 
 h4.detail-title {
