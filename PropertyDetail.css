@@ -38,6 +38,9 @@ button.gotour {
 .md-house-listing.broker .more-btn:hover {
     background:rgba(184,184,184,1) !important;
 }
+.md-market-trends.broker.mobile .cta-btn button:hover {
+    background: rgba(184, 184,184,1) !important;
+}
 .icon-arrow-up:before {
     color: white !important;
 }
