@@ -12,9 +12,13 @@
     border: 0 !important;
 
 }
-.md-property-history.broker .history-more {
+.md-map.broker .map-tab .tab-collapse .icon-more_arrow:before {
     color: white !important;
-    border-top: rgba(43,43,43,1) 2px solid !important;
+}
+.md-market-trends.broker .cta-btn button {
+    backgound: rgba(43, 43, 43, 1) !important;
+    color: white !important;
+    transition: background .5s ease;
 }
 .submit-box .submit {
     transition: background .5s ease;
