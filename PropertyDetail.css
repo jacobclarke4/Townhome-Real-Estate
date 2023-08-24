@@ -12,6 +12,9 @@
     border: 0 !important;
 
 }
+.house-grid.broker {
+    justify-content: center mp !important;
+}
 .submit-box .submit {
     transition: background .5s ease;
 }
