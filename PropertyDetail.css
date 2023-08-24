@@ -15,6 +15,10 @@
 .submit-box .submit {
     transition: background .5s ease;
 }
+.md-search-seo.broker {
+    display: none !important;
+}
+
 .md-form.template7 .form-container .info-agent * {
     color: white !important;
 } 
