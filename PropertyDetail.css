@@ -10,7 +10,26 @@
     width: 100% !important;
     margin: 0 !important;
     border: 0 !important;
-
+}
+.md-form.template7 .form-container .info-agent {
+    justify-content: none !important;
+}
+button.gotour:hover {
+    background: rgba(184,184,184,1) !important;
+}
+button.gotour {
+    transition: all .5s ease;
+}
+.md-house-listing.broker .more-btn {
+    background: rgba(43, 43, 43, 1) !important;
+    color: white !important;
+    transition: background .5s ease;
+}
+.md-house-listing.broker .more-btn:hover {
+    background:rgba(184,184,184,1) !important;
+}
+.icon-arrow-up:before {
+    color: white !important;
 }
 .md-map.broker .map-tab .tab-collapse .icon-more_arrow:before {
     color: white !important;
