@@ -5,6 +5,26 @@
 .breadcrumb-container.fashion div > *{
     color: white !important;
 }
+.md-form.template7 {
+    background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+
+}
+
+.md-form.template7 .form-container .info-agent * {
+    color: white !important;
+} 
+.md-form.template7 .form-container .info-right .basic-info input, .md-form.template7 .form-container .info-right .basic-info textarea {
+    background: transparent !important;
+    border-color: white !important;
+    color: white !important;
+}
+.privacyText * {
+    color: rgba(184, 184, 184, 1) !important
+}
+
 .fixed-banner.fixed {
     background: rgba(43, 43, 43, 1) !important;
 }
