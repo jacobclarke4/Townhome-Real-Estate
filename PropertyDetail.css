@@ -5,6 +5,9 @@
 .breadcrumb-container.fashion div > *{
     color: white !important;
 }
+.mg-title {
+    color: white !important;
+}
 .md-form.template7 {
     background: linear-gradient(90deg, rgba(43,43,43,1) 25%, rgba(70,70,70,1) 55%) !important;
     width: 100% !important;
