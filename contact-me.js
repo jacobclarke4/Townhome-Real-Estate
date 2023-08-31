@@ -1,4 +1,4 @@
-        /*
+   /*
         function buy() {
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
@@ -22,7 +22,7 @@
             sell_button.classList.remove('selected');
             // Get all elements with the class .md-form.template7
             var form1 = document.querySelectorAll('.md-form.template7 .mg-container')[0];
-                form1.style.visibility = "1";
+                form1.style.visibility = "visible";
                 form1.style.opacity = "1";
 
             var form2 = document.querySelectorAll('.md-form.template7')[1];
