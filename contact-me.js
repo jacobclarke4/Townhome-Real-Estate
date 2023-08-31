@@ -21,8 +21,9 @@
             buy_button.classList.add('selected');
             sell_button.classList.remove('selected');
             // Get all elements with the class .md-form.template7
-            var form1 = document.querySelectorAll('.md-form.template7')[0];
-                form1.style.display = "block";
+            var form1 = document.querySelectorAll('.md-form.template7 .mg-container')[0];
+                form1.style.visibility = "1";
+                form1.style.opacity = "1";
 
             var form2 = document.querySelectorAll('.md-form.template7')[1];
                 form2.style.display = "none";
