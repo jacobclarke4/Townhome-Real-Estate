@@ -1,4 +1,4 @@
-function buy() {
+        function buy() {
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
 
@@ -28,7 +28,9 @@ function buy() {
 
             var form1 = document.querySelectorAll('.md-form.template7 .mg-container')[0];
             var form1_parent = document.querySelectorAll('.md-form.template7')[0];
+                form1.style.visibility = "hidden";
                 form1.style.opacity = "0";
+                form1_parent.style.display = "none";
 
             var form2 = document.querySelectorAll('.md-form.template7 .mg-container')[1];
             var form2_parent = document.querySelectorAll('.md-form.template7')[1];
