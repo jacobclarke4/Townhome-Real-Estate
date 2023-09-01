@@ -1,4 +1,4 @@
-function buy() {
+        function buy() {
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
 
@@ -29,7 +29,6 @@ function buy() {
             var form1 = document.querySelectorAll('.md-form.template7 .mg-container')[0];
             var form1_parent = document.querySelectorAll('.md-form.template7')[0];
                 fadeOutEffectBuy();
-
         }
 
         function fadeOutEffectBuy() {
@@ -38,11 +37,7 @@ function buy() {
             var fadeEffect = setInterval(function () {
                 if(fadeTarget.style.opacity <= 0) {
                     fadeTargetParent.style.display = "none";
-                    var form2 = document.querySelectorAll('.md-form.template7 .mg-container')[1];
-                    var form2_parent = document.querySelectorAll('.md-form.template7')[1];
-                        form2_parent.style.display = "block";
-                        form2.style.visibility = "visible"
-                        form2.style.opacity = "1";
+                    fadeInEffectSell();
                 }
                 if (!fadeTarget.style.opacity) {
                     fadeTarget.style.opacity = 1;
@@ -52,7 +47,26 @@ function buy() {
                 } else {
                     clearInterval(fadeEffect);
                 }
-            }, 200);
+            }, 100);
+        }
+
+        function fadeInEffectSell() {
+            var fadeTarget = document.querySelectorAll('.md-form.template7 .mg-container')[1];
+            var form2_parent = document.querySelectorAll('.md-form.template7')[1];
+
+            form2_parent.style.display = "block";
+            fadeTarget.style.visibility = "visible"
+
+            var fadeEffect = setInterval(function () {
+                if (!fadeTarget.style.opacity) {
+                    fadeTarget.style.opacity = 0;
+                }
+                if (fadeTarget.style.opacity < 1) {
+                    fadeTarget.style.opacity += 0.1;
+                } else {
+                    clearInterval(fadeEffect);
+                }
+            }, 100);
         }
 
         function fadeOutEffectSell() {
@@ -66,5 +80,5 @@ function buy() {
                 } else {
                     clearInterval(fadeEffect);
                 }
-            }, 200);
+            }, 100);
         }
