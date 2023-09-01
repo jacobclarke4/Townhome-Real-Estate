@@ -1,4 +1,4 @@
-       function buy() {
+        function buy() {
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
 
@@ -57,11 +57,9 @@
 
             form2_parent.style.display = "block";
             fadeTarget.style.visibility = "visible"
+            fadeTarget.style.opacity = 0;
 
             var fadeEffect = setInterval(function () {
-                if (!fadeTarget.style.opacity) {
-                    fadeTarget.style.opacity = 0;
-                }
                 if (fadeTarget.style.opacity < 1) {
                     fadeTarget.style.opacity += 0.2;
                 } else {
