@@ -1,4 +1,4 @@
-        function buy() {
+       function buy() {
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
 
@@ -29,6 +29,7 @@
             var form1 = document.querySelectorAll('.md-form.template7 .mg-container')[0];
             var form1_parent = document.querySelectorAll('.md-form.template7')[0];
                 fadeOutEffectBuy();
+                fadeInEffectSell();
         }
 
         function fadeOutEffectBuy() {
@@ -37,13 +38,13 @@
             var fadeEffect = setInterval(function () {
                 if(fadeTarget.style.opacity <= 0) {
                     fadeTargetParent.style.display = "none";
-                    fadeInEffectSell();
+
                 }
                 if (!fadeTarget.style.opacity) {
                     fadeTarget.style.opacity = 1;
                 }
                 if (fadeTarget.style.opacity > 0) {
-                    fadeTarget.style.opacity -= 0.1;
+                    fadeTarget.style.opacity -= 0.2;
                 } else {
                     clearInterval(fadeEffect);
                 }
@@ -62,7 +63,7 @@
                     fadeTarget.style.opacity = 0;
                 }
                 if (fadeTarget.style.opacity < 1) {
-                    fadeTarget.style.opacity += 0.1;
+                    fadeTarget.style.opacity += 0.2;
                 } else {
                     clearInterval(fadeEffect);
                 }
