@@ -1,56 +1,36 @@
-    /*
-        function buy() {
-            var buy_button = document.getElementById('buy-button');
-            var sell_button = document.getElementById('sell-button');
-
-            buy_button.style.background = "rgba(184, 184, 184, 1)";
-            sell_button.style.background = "white";
-        }
-        function sell() {
-            var buy_button = document.getElementById('buy-button');
-            var sell_button = document.getElementById('sell-button');
-
-            sell_button.style.background = "rgba(184, 184, 184, 1)";
-            buy_button.style.background = "white";
-        }
-        */
-        function buy() {
+       function buy() {
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
 
             buy_button.classList.add('selected');
             sell_button.classList.remove('selected');
-            // Get all elements with the class .md-form.template7
-            var form1 = document.querySelectorAll('.md-form.template7 .mg-container')[0];
+
             var form1_parent = document.querySelectorAll('.md-form.template7')[0];
+            form1_parent.style.display = "block";
+            var buying_banner = document.querySelector('.buying-banner');
+            buying_banner.style.display = "block";
 
-                form1_parent.style.display = "block";
-                form1.style.visibility = "visible";
-                form1.style.opacity = "1";
 
-
-            var form2 = document.querySelectorAll('.md-form.template7 .mg-container')[1];
             var form2_parent = document.querySelectorAll('.md-form.template7')[1];
-                form2.style.visibility = "hidden";
-                form2.style.opacity = "0";
-                form2_parent.style.display = "none";
-        }
-        function sell() {
+            form2_parent.style.display = "none";
+            var selling_banner = document.querySelector('.selling-banner');
+            selling_banner.style.display = "none";
+       }
+       function sell() {
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
 
-            sell_button.classList.add('selected');
-            buy_button.classList.remove('selected');
+            buy_button.classList.add('selected');
+            sell_button.classList.remove('selected');
 
-            var form1 = document.querySelectorAll('.md-form.template7 .mg-container')[0];
             var form1_parent = document.querySelectorAll('.md-form.template7')[0];
-                form1.style.visibility = "hidden";
-                form1.style.opacity = "0";
-                form1_parent.style.display = "none";
+            form1_parent.style.display = "none";
+            var buying_banner = document.querySelector('.buying-banner');
+            buying_banner.style.display = "none";
 
-            var form2 = document.querySelectorAll('.md-form.template7 .mg-container')[1];
+
             var form2_parent = document.querySelectorAll('.md-form.template7')[1];
-                form2_parent.style.display = "block";
-                form2.style.visibility = "visible"
-                form2.style.opacity = "1";
-        }
+            form2_parent.style.display = "block";
+            var selling_banner = document.querySelector('.selling-banner');
+            selling_banner.style.display = "block";
+       }
