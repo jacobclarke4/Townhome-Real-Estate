@@ -20,8 +20,8 @@
             var buy_button = document.getElementById('buy-button');
             var sell_button = document.getElementById('sell-button');
 
-            buy_button.classList.add('selected');
-            sell_button.classList.remove('selected');
+            buy_button.classList.remove('selected');
+            sell_button.classList.add('selected');
 
             var form1_parent = document.querySelectorAll('.md-form.template7')[0];
             form1_parent.style.display = "none";
