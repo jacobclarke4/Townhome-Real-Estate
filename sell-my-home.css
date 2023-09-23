@@ -1,4 +1,4 @@
-address-input.standard ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+#app > div.md-sell-banner.broker > div > div.media-content.column.mg-container > div.address-input.standard > div.left-box > input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: black !important;
   opacity: .5 !important; /* Firefox */
 }
